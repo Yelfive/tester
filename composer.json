@@ -1,0 +1,13 @@
+{
+    "name": "fk/tester",
+    "description": "A tester based on PHPUnit and GuzzleHttp, using http to accomplish tests",
+    "autoload": {
+        "psr-4": {
+            "fk\\tester\\": "./src"
+        }
+    },
+    "requires": {
+        "guzzlehttp/guzzle": "^6.0",
+        "phpunit/phpunit": "^6.0"
+    }
+}
